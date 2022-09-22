@@ -15,8 +15,12 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <Header />
-        <StakeDetails />
-        <StakeForm />
+        <div className={styles.main}>
+          <StakeDetails />
+          <div className={styles.form}>
+            <StakeForm />
+          </div>
+        </div>
       </div>
     </div>
   )

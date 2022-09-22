@@ -49,14 +49,14 @@ export default function StakeForm() {
         <div>
             <Form
             onSubmit={handleStakeSubmit}
-            title="Stake your ETH here"
+            title="Stake your ETH here!!"
             data={
                 [
                     {
-                        inputWidth: "50%",
-                        name: "Amount to Stake(in ETH)",
+                        inputWidth: "100%",
+                        name: "Amount to Stake (in RT)",
                         type: "number",
-                        value: "",
+                        value: "10",
                         key: "amountToStake",
                     },
                 ]
